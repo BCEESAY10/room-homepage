@@ -30,16 +30,22 @@
       <section class="hero">
         <div class="slider" id="slider">
           <div class="slide active">
-            <img src="images/mobile-image-hero-1.jpg"
-              alt="Modern living room with white furniture">
+            <picture>
+                <source media="(min-width: 769px)" srcset="images/desktop-image-hero-1.jpg">
+                <img src="images/mobile-image-hero-1.jpg" alt="Modern living room with white furniture">
+            </picture>
           </div>
           <div class="slide">
-            <img src="images/mobile-image-hero-2.jpg"
-              alt="Minimalist bedroom design">
+            <picture>
+              <source media="(min-width: 768px)" srcset="images/desktop-image-hero-2.jpg">
+              <img src="images/mobile-image-hero-2.jpg" alt="Minimalist bedroom design">
+            </picture>
           </div>
           <div class="slide">
-            <img src="images/mobile-image-hero-3.jpg"
-              alt="Scandinavian style furniture">
+            <picture>
+              <source media="(min-width: 768px)" srcset="images/desktop-image-hero-3.jpg">
+              <img src="images/mobile-image-hero-3.jpg" alt="Scandinavian style furniture">
+            </picture>
           </div>
         </div>
         <div class="slider-controls">
