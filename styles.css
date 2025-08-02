@@ -93,7 +93,7 @@ body{
 .nav-menu a {
     text-decoration: none;
     color: #333;
-    font-size: 1.1rem;
+    font-size: var(--fs-normal);
     transition: color 0.3s ease;
 }
 
@@ -170,7 +170,7 @@ body{
 }
 
 .content h1 {
-    font-size: 2rem;
+    font-size: var(--fs-xl);
     margin-bottom: 1rem;
     line-height: 1.2;
 }
@@ -184,10 +184,10 @@ body{
     display: inline-flex;
     align-items: center;
     text-decoration: none;
-    color: #333;
+    color: var(--black);
     text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: bold;
+    letter-spacing: 2.5px;
+    font-weight: var(--font-bold);
     transition: color 0.3s ease;
 }
 
@@ -238,7 +238,7 @@ body{
 }
 
 /* Tablet Styles */
-@media (min-width: 768px) {
+@media (min-width: 48em) {
     .nav-toggle {
         display: none;
     }
@@ -296,7 +296,7 @@ body{
 }
 
 /* Desktop Styles */
-@media (min-width: 1024px) {
+@media (min-width: 75em) {
     .main-content {
         display: grid;
         grid-template-columns: 1fr 400px;
