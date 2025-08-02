@@ -195,13 +195,12 @@ body{
     color: #666;
 }
 
-.cta-btn::after {
-    content: '→';
+.cta-btn img {
     margin-left: 1rem;
     transition: margin-left 0.3s ease;
 }
 
-.cta-btn:hover::after {
+.cta-btn img:hover {
     margin-left: 1.5rem;
 }
 
