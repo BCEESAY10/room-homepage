@@ -14,9 +14,9 @@
     --gray-800: hsl(0, 0%, 27%);
     --black: hsl(0, 0%, 0%);
 
-    --fs-xl: clamp(2em, 5vw + 1.5em, 3em);
-    --fs-lg: clamp(1.5em, 3vw + 1em, 2em);
-    --fs-normal: clamp(0.95em, 2vw + 0.8em, 1.1em);
+    --fs-xl: clamp(1.3em, 2.5vw + 1em, 2.5em);
+    --fs-lg: clamp(1em, 1.5vw + 1em, 2em);
+    --fs-normal: clamp(0.95em, 1vw + 0.8em, 1.1em);
 
     --font-regular: 500;
     --font-semibold: 600;
@@ -24,6 +24,12 @@
 }
 
 body{
+main {
+    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
     font-family: var(--font-family);
     font-size: var(--fs-normal);
     line-height: 1.6;
@@ -327,8 +333,7 @@ body{
     .main-content {
         display: grid;
         grid-template-columns: 1fr 400px;
-        min-height: 100vh;
-        height: 100vh;
+        flex: 1;
         box-sizing: border-box;
     }
     .logo{
@@ -340,11 +345,12 @@ body{
     }
 
     .hero {
-        height: 100%;
+        height: 70vh;
+        width: 70vw;
     }
 
     .content {
-        padding: 4rem 3rem;
+        padding: 4rem 1rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -352,7 +358,7 @@ body{
     }
 
     .content h1 {
-        font-size: 3rem;
+        font-size: var(--fs-xl);
         margin-bottom: 1.5rem;
     }
 
