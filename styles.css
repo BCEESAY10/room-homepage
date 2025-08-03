@@ -65,7 +65,7 @@ body{
 .nav-toggle {
     background: none;
     border: none;
-    color: #fff;
+    color: var(--white);
     font-size: 2rem;
     cursor: pointer;
     display: block;
@@ -79,7 +79,7 @@ body{
     left: 0;
     width: 100vw;
     height: auto;
-    background: #fff;
+    background: var(--white);
     transition: top 0.3s ease;
     padding: 2rem 1rem;
     list-style: none;
@@ -110,12 +110,10 @@ body{
 
 .nav-close {
     position: absolute;
-    top: 1rem;
-    right: 1rem;
+    top: 2rem;
+    left: 1rem;
     background: none;
     border: none;
-    font-size: 1.5rem;
-    cursor: pointer;
 }
 
 /* Hero Section */
