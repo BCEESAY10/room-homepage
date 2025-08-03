@@ -46,17 +46,18 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    padding: 1.5rem 1rem;
+    justify-content: flex-start;
+    gap: 3rem;
+    padding: 3rem;
     position: absolute;
     top: 0;
     left: 0;
-    right: 0;
     z-index: 1001;
 }
 
 .logo {
-    text-decoration: none;
+    border: none;
+    background-color: transparent;
     display: flex;
     align-items: center;
     margin-left: auto;
@@ -66,9 +67,6 @@ body{
     background: none;
     border: none;
     color: var(--white);
-    font-size: 2rem;
-    cursor: pointer;
-    display: block;
     margin-right: auto;
     margin-left: 0.5rem;
 }
