@@ -63,7 +63,7 @@ function prevSlide() {
 nextBtn.addEventListener("click", nextSlide);
 prevBtn.addEventListener("click", prevSlide);
 
-// Auto-play slider (optional)
+// Auto-play slider
 setInterval(nextSlide, 5000);
 
 // Close mobile menu when clicking on menu links
