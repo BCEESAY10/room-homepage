@@ -61,6 +61,7 @@ body{
     display: flex;
     align-items: center;
     margin-left: auto;
+    order: 2;
 }
 
 .nav-toggle {
@@ -69,6 +70,7 @@ body{
     color: var(--white);
     margin-right: auto;
     margin-left: 0.5rem;
+    order: 1;
 }
 
 .nav-menu {
@@ -261,6 +263,7 @@ body{
     .logo {
         margin-left: 0;
         margin-right: 2rem;
+        order: 1;
     }
 
     .nav-menu {
@@ -327,6 +330,13 @@ body{
         min-height: 100vh;
         height: 100vh;
         box-sizing: border-box;
+    }
+    .logo{
+        order: 1;
+    }
+
+    .nav-menu{
+        order: 2;
     }
 
     .hero {
